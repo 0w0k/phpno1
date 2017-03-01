@@ -1,0 +1,44 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 01</title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			.mian{width: 600px;height: 400px;position:relative;margin: 50px auto;overflow: hidden;}
+			li{list-style: none;}
+			.banner_ul{width: 4200px;position: absolute;height: 400px;display: block; transition: all 1s}
+			.banner_ul li{float: left;display: block;}
+			.bian{position: absolute;bottom: 0;text-align:center;width: 100%;}
+			.bian li{cursor: pointer;opacity:0.8;width: 15px;height: 15px;border-radius: 50%;background-color: darkcyan;display: inline-block;margin: 0 4px;margin-bottom: 30px;}
+			.bian .active{background-color: red;}
+			.prev{cursor: pointer;height: 100px;width: 50px;line-height: 100px;position: absolute;top: 40%;background-color: #666;opacity: 0;font-size: 50px;text-align: center;}
+			.next{cursor: pointer;height: 100px;width: 50px;line-height: 100px;position: absolute;top: 40%;right: 0;background-color: #666;opacity: 0;font-size: 50px;text-align: center;}
+			.mian:hover .prev, .mian:hover .next{opacity: 0.7;transition: all ease-in-out 0.5s; -moz-transition: all ease-in-out 0.5s;-webkit-transition: all ease-in-out 0.5s;}
+			
+		</style>
+  </head>
+<body>
+	<div class="mian">
+		<ul class="banner_ul" style="left:-600px">
+			<li><img src="img/5.jpg"/></li>
+			<li><img src="img/1.jpg"/></li>
+			<li><img src="img/2.jpg"/></li>
+			<li><img src="img/3.jpg"/></li>
+			<li><img src="img/4.jpg"/></li>
+			<li><img src="img/5.jpg"/></li>
+			<li><img src="img/1.jpg"/></li>
+		</ul>
+		<ul class="bian">
+
+		</ul>
+		<div class="prev"> < </div>
+		<div class="next"> > </div>
+		
+		
+	</div>
+	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/new_file.js" charset="utf-8"></script>
+
+</body>
+</html>

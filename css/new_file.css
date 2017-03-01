@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.aa{width: 100px;height: 100px;background:yellow;margin: 10px;float: left;text-align: center;}
+
+ul.banner_ul{
+	transition: all 1s;
+}
+
+
+
+
